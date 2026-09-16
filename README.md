@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.png">
-  <img src="assets/banner-light.png" alt="Parallel Entrepreneur. I build companies that run on agents. Several at once." width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.png">
+  <img src="assets/header-light.png" alt="Parallel Entrepreneur. I build companies that run on agents. Several at once." width="100%">
 </picture>
 
 <p align="center">

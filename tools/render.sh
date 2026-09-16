@@ -4,7 +4,7 @@
 # the viewer's GitHub theme through <picture>. Corners stay transparent.
 #
 #   ./tools/render.sh            # all images
-#   ./tools/render.sh banner     # one image
+#   ./tools/render.sh header     # one image
 set -euo pipefail
 cd "$(dirname "$0")/.."
 ROOT="$(pwd)"
@@ -12,7 +12,7 @@ CHROME="${CHROME:-/Applications/Google Chrome.app/Contents/MacOS/Google Chrome}"
 
 # name width height
 IMAGES=(
-  "banner 1280 440"
+  "header 1280 440"
   "timeline 1280 520"
   "operating-model 1280 720"
 )
