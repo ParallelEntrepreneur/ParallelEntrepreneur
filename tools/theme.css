@@ -1,0 +1,51 @@
+/* Shared tokens for every rendered image. Dark is the default; a page opened
+   with #light switches to the light set (see theme.js). The palette follows
+   the CV: near-black blueprint grid, amber accent, mono labels. */
+:root {
+  --bg: #0A0B0D;
+  --panel: #0E1013;
+  --grid: #14161A;
+  --line: #24272D;
+  --ink: #EEEBE3;
+  --muted: #9A9CA2;
+  --dim: #5A5D65;
+  --amber: #F5A524;
+  --amber-ink: #FFC468;
+  --amber-soft: rgba(245, 165, 36, .12);
+  --amber-glow: rgba(245, 165, 36, .20);
+}
+:root[data-theme="light"] {
+  --bg: #F8F6F1;
+  --panel: #FFFFFF;
+  --grid: #EDE9E0;
+  --line: #D9D4C9;
+  --ink: #15161A;
+  --muted: #5B5E66;
+  --dim: #9C988F;
+  --amber: #C77A00;
+  --amber-ink: #9A5E00;
+  --amber-soft: rgba(199, 122, 0, .09);
+  --amber-glow: rgba(199, 122, 0, .12);
+}
+
+html, body { margin: 0; padding: 0; background: transparent; overflow: hidden; }
+body {
+  font-family: Geist, system-ui, sans-serif; color: var(--ink);
+  -webkit-font-smoothing: antialiased; position: relative;
+}
+.mono { font-family: 'Geist Mono', ui-monospace, monospace; }
+.card {
+  position: absolute; inset: 0; overflow: hidden; border-radius: 18px;
+  background: var(--bg); border: 1px solid var(--line); box-sizing: border-box;
+}
+.grid {
+  position: absolute; inset: 0;
+  background-image:
+    linear-gradient(var(--grid) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+  background-size: 40px 40px; background-position: -1px -1px;
+}
+.kicker {
+  font-family: 'Geist Mono', ui-monospace, monospace; font-size: 14px;
+  letter-spacing: .18em; text-transform: uppercase; color: var(--amber);
+}

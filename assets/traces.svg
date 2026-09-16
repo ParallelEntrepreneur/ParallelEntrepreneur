@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="72" viewBox="0 0 1280 72" role="img" aria-label="Seven signal traces running in parallel">
+  <!-- Hand-written, not rendered: seven parallel traces with a pulse travelling
+       along each at its own pace. Transparent, so it sits on GitHub's light and
+       dark themes alike. Motion stops for viewers who ask for reduced motion. -->
+  <style>
+    .track { stroke: #8A8A8A; stroke-opacity: .22; stroke-width: 1; }
+    .pulse { stroke: #E39A1F; stroke-width: 2; stroke-linecap: round;
+             stroke-dasharray: 110 1300; stroke-dashoffset: 1410;
+             animation: run linear infinite; }
+    .node { fill: #E39A1F; }
+    @keyframes run { to { stroke-dashoffset: 0; } }
+    @media (prefers-reduced-motion: reduce) { .pulse { animation: none; stroke-dashoffset: 700; } }
+  </style>
+  <g>
+    <line class="track" x1="0" y1="12" x2="1264" y2="12"/>
+    <line class="track" x1="0" y1="20" x2="1264" y2="20"/>
+    <line class="track" x1="0" y1="28" x2="1264" y2="28"/>
+    <line class="track" x1="0" y1="36" x2="1264" y2="36"/>
+    <line class="track" x1="0" y1="44" x2="1264" y2="44"/>
+    <line class="track" x1="0" y1="52" x2="1264" y2="52"/>
+    <line class="track" x1="0" y1="60" x2="1264" y2="60"/>
+  </g>
+  <g>
+    <line class="pulse" x1="0" y1="12" x2="1264" y2="12" style="animation-duration: 4.2s; animation-delay: -0.6s"/>
+    <line class="pulse" x1="0" y1="20" x2="1264" y2="20" style="animation-duration: 5.6s; animation-delay: -3.1s"/>
+    <line class="pulse" x1="0" y1="28" x2="1264" y2="28" style="animation-duration: 3.4s; animation-delay: -1.9s"/>
+    <line class="pulse" x1="0" y1="36" x2="1264" y2="36" style="animation-duration: 6.3s; animation-delay: -4.4s"/>
+    <line class="pulse" x1="0" y1="44" x2="1264" y2="44" style="animation-duration: 4.8s; animation-delay: -0.2s"/>
+    <line class="pulse" x1="0" y1="52" x2="1264" y2="52" style="animation-duration: 3.9s; animation-delay: -2.7s"/>
+    <line class="pulse" x1="0" y1="60" x2="1264" y2="60" style="animation-duration: 5.1s; animation-delay: -1.3s"/>
+  </g>
+  <g>
+    <circle class="node" cx="1270" cy="12" r="2.5"/>
+    <circle class="node" cx="1270" cy="20" r="2.5"/>
+    <circle class="node" cx="1270" cy="28" r="2.5"/>
+    <circle class="node" cx="1270" cy="36" r="2.5"/>
+    <circle class="node" cx="1270" cy="44" r="2.5"/>
+    <circle class="node" cx="1270" cy="52" r="2.5"/>
+    <circle class="node" cx="1270" cy="60" r="2.5"/>
+  </g>
+</svg>
