@@ -29,6 +29,21 @@ launch. Judge it on the outputs.
   <img src="assets/operating-model-light.png" alt="One system, many companies. People set direction and taste. A control surface of permission scopes, spend caps, tool schemas, evaluation rubrics, escalation rules and an append-only ledger. Agents across discover, build, operate, distribute and learn. A shared foundation written once. Seven companies running in parallel." width="100%">
 </picture>
 
+## The seven
+
+Numbered as they appear on the traces above, at the stage each one has actually
+reached in the [Factory Zero registry](https://factory0.ventures/ventures/).
+
+| Company | What it is | Stage |
+| :--- | :--- | :--- |
+| <img src="assets/companies/kontinuum.svg" width="48" alt="Kontinuum"><br>**[Kontinuum](https://kontinuum.audio)**<br><sub>`01` · Music</sub> | An AI composer on a deterministic real-time engine: music written and performed continuously, personalised to the listener and playable offline. | `PROTOTYPE` |
+| <img src="assets/companies/undercover-rockstars.svg" width="48" alt="Undercover Rockstars"><br>**[Undercover Rockstars](https://undercoverrockstars.com)**<br><sub>`02` · Apparel</sub> | A clothing house where every piece is a matched day-and-night pair. People cut the garments; agents are meant to run stock, orders, support and the next drop's brief. | `LAUNCH` |
+| <img src="assets/companies/yoginini.svg" width="48" alt="Yoginini"><br>**[Yoginini](https://yoginini.us)**<br><sub>`03` · Wellness</sub> | Building a yoga teacher that can see you: an on-device pose model with one calm correction at a time, and no video leaving the phone. | `VALIDATION` |
+| <img src="assets/companies/cratefield.svg" width="48" alt="Cratefield"><br>**[Cratefield](https://cratefield.com)**<br><sub>`04` · Infrastructure</sub> | A backend you compile rather than configure. The open-source Rust harness underneath it is already public. | `VALIDATION` |
+| <img src="assets/companies/vibecaddie.svg" width="48" alt="VibeCaddie"><br>**[VibeCaddie](https://vibecaddie.com)**<br><sub>`05` · Devtools</sub> | Building a code review agent for code you didn't fully write: it loads only the review skills that apply and ranks findings by severity. | `VALIDATION` |
+| <img src="assets/companies/colonizer.svg" width="48" alt="Colonizer"><br>**[Colonizer](https://colonizer.dev)**<br><sub>`06` · Devtools</sub> | Turns GitHub issues into pull requests, with each task's coding agent in its own disposable microVM. Runs locally today. | `PROTOTYPE` |
+| <img src="assets/companies/findsyou.svg" width="48" alt="FindsYou.work"><br>**[FindsYou.work](https://findsyou.work)**<br><sub>`07` · Careers</sub> | Building a job search that runs without you, where the product is the rejection: every role you could never take is discarded, with the reason shown. | `VALIDATION` |
+
 ## Agent-native, in production
 
 The model had a proving ground before the studio existed. I have run the same company
