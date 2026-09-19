@@ -12,9 +12,9 @@ CHROME="${CHROME:-/Applications/Google Chrome.app/Contents/MacOS/Google Chrome}"
 
 # name width height
 IMAGES=(
-  "header 1280 440"
+  "header 1280 500"
   "timeline 1280 520"
-  "operating-model 1280 720"
+  "operating-model 1280 840"
 )
 
 shoot() { # page theme w h out

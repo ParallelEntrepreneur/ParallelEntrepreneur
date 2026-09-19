@@ -21,15 +21,15 @@ hold the boundaries and make the calls that need a person.
 
 The studio this runs in is [Factory Zero](https://factory0.ventures): one operator
 and a network of agents. The claim being tested is that a studio that size can hold
-this many companies at once. Seven are in the pipeline today, between validation and
+this many companies at once. Nine are in the pipeline today, between validation and
 launch. Judge it on the outputs.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/operating-model-dark.png">
-  <img src="assets/operating-model-light.png" alt="One system, many companies. People set direction and taste. A control surface of permission scopes, spend caps, tool schemas, evaluation rubrics, escalation rules and an append-only ledger. Agents across discover, build, operate, distribute and learn. A shared foundation written once. Seven companies running in parallel." width="100%">
+  <img src="assets/operating-model-light.png" alt="One system, many companies. People set direction and taste. A control surface of permission scopes, spend caps, tool schemas, evaluation rubrics, escalation rules and an append-only ledger. Agents across discover, build, operate, distribute and learn. A shared foundation written once. Nine companies running in parallel." width="100%">
 </picture>
 
-## The seven
+## The nine
 
 Numbered as they appear on the traces above, at the stage each one has actually
 reached in the [Factory Zero registry](https://factory0.ventures/ventures/).
@@ -43,6 +43,8 @@ reached in the [Factory Zero registry](https://factory0.ventures/ventures/).
 | <img src="assets/companies/vibecaddie.svg" width="48" alt="VibeCaddie"><br>**[VibeCaddie](https://vibecaddie.com)**<br><sub>`05` · Devtools</sub> | Building a code review agent for code you didn't fully write: it loads only the review skills that apply and ranks findings by severity. | `VALIDATION` |
 | <img src="assets/companies/colonizer.svg" width="48" alt="Colonizer"><br>**[Colonizer](https://colonizer.dev)**<br><sub>`06` · Devtools</sub> | Turns GitHub issues into pull requests, with each task's coding agent in its own disposable microVM. Runs locally today. | `PROTOTYPE` |
 | <img src="assets/companies/findsyou.svg" width="48" alt="FindsYou.work"><br>**[FindsYou.work](https://findsyou.work)**<br><sub>`07` · Careers</sub> | Building a job search that runs without you, where the product is the rejection: every role you could never take is discarded, with the reason shown. | `VALIDATION` |
+| <img src="assets/companies/supportgenius.svg" width="48" alt="SupportGenius"><br>**[SupportGenius](https://supportgeni.us)**<br><sub>`08` · Support</sub> | Building a support agent that answers from a company's own docs and, when it cannot, writes the ticket for it: one model drafts, an independent one checks it, and it is filed where that team already works. | `VALIDATION` |
+| <img src="assets/companies/promptdecode.svg" width="48" alt="promptdecode"><br>**[promptdecode](https://promptdeco.de)**<br><sub>`09` · Security</sub> | Finds text a reviewer cannot see and a model reads anyway. The decoder runs in the browser today; the scanners that would catch it in CI are being built. | `VALIDATION` |
 
 ## Agent-native, in production
 
