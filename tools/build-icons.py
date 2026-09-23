@@ -14,7 +14,7 @@ import sys
 
 SLUGS = ["kontinuum", "undercover-rockstars", "yoginini", "cratefield",
          "vibecaddie", "colonizer", "findsyou",
-         "supportgenius", "promptdecode"]
+         "supportgenius", "promptdecode", "groove-guru", "posplug"]
 SIZE, INSET = 120, 22
 # Marks drawn with generous built-in padding get a smaller inset.
 INSETS = {"yoginini": 8}

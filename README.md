@@ -21,15 +21,15 @@ hold the boundaries and make the calls that need a person.
 
 The studio this runs in is [Factory Zero](https://factory0.ventures): one operator
 and a network of agents. The claim being tested is that a studio that size can hold
-this many companies at once. Nine are in the pipeline today, between validation and
+this many companies at once. Eleven are in the pipeline today, between validation and
 launch. Judge it on the outputs.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/operating-model-dark.png">
-  <img src="assets/operating-model-light.png" alt="One system, many companies. People set direction and taste. A control surface of permission scopes, spend caps, tool schemas, evaluation rubrics, escalation rules and an append-only ledger. Agents across discover, build, operate, distribute and learn. A shared foundation written once. Nine companies running in parallel." width="100%">
+  <img src="assets/operating-model-light.png" alt="One system, many companies. People set direction and taste. A control surface of permission scopes, spend caps, tool schemas, evaluation rubrics, escalation rules and an append-only ledger. Agents across discover, build, operate, distribute and learn. A shared foundation written once. Eleven companies running in parallel." width="100%">
 </picture>
 
-## The nine
+## The eleven
 
 Numbered as they appear on the traces above, at the stage each one has actually
 reached in the [Factory Zero registry](https://factory0.ventures/ventures/).
@@ -45,6 +45,8 @@ reached in the [Factory Zero registry](https://factory0.ventures/ventures/).
 | <img src="assets/companies/findsyou.svg" width="48" alt="FindsYou.work"><br>**[FindsYou.work](https://findsyou.work)**<br><sub>`07` · Careers</sub> | Building a job search that runs without you, where the product is the rejection: every role you could never take is discarded, with the reason shown. | `VALIDATION` |
 | <img src="assets/companies/supportgenius.svg" width="48" alt="SupportGenius"><br>**[SupportGenius](https://supportgeni.us)**<br><sub>`08` · Support</sub> | Building a support agent that answers from a company's own docs and, when it cannot, writes the ticket for it: one model drafts, an independent one checks it, and it is filed where that team already works. | `VALIDATION` |
 | <img src="assets/companies/promptdecode.svg" width="48" alt="promptdecode"><br>**[promptdecode](https://promptdeco.de)**<br><sub>`09` · Security</sub> | Finds text a reviewer cannot see and a model reads anyway. The decoder runs in the browser today; the scanners that would catch it in CI are being built. | `VALIDATION` |
+| <img src="assets/companies/groove-guru.svg" width="48" alt="Groove Guru"><br>**[Groove Guru](https://groove.guru)**<br><sub>`10` · Music</sub> | Building a DJ tutor for Pioneer gear: it listens to the decks on the booth network and says, in a calm voice, when the key clashes or the blend misses the phrase. The drills run in the browser today. | `VALIDATION` |
+| <img src="assets/companies/posplug.svg" width="48" alt="PosPlug"><br>**[PosPlug](https://posplug.in)**<br><sub>`11` · Integrations</sub> | Building one API for every point-of-sale system: a model maps each POS's fields to one data model and a person confirms what it is unsure of. Early access is open; the connectors are being built. | `VALIDATION` |
 
 ## Agent-native, in production
 

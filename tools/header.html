@@ -47,8 +47,8 @@
   const svg = document.getElementById('scope');
   const STAGES = ['SIGNAL', 'VALIDATION', 'PROTOTYPE', 'LAUNCH', 'AUTONOMY', 'SCALE'];
   // One trace per company in the pipeline, at its actual stage. No names.
-  const CURRENT = [2, 3, 1, 1, 1, 2, 1, 1, 1];
-  const X0 = 716, STEP = 98, TOP = 150, ROW = 36, AMP = 11;
+  const CURRENT = [2, 3, 1, 1, 1, 2, 1, 1, 1, 1, 1];
+  const X0 = 716, STEP = 98, TOP = 146, ROW = 30, AMP = 10;
   const xAt = (k) => X0 + k * STEP;
   const END = xAt(STAGES.length - 1);
 
