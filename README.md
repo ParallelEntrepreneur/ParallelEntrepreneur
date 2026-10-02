@@ -21,15 +21,15 @@ hold the boundaries and make the calls that need a person.
 
 The studio this runs in is [Factory Zero](https://factory0.ventures): one operator
 and a network of agents. The claim being tested is that a studio that size can hold
-this many companies at once. Eleven are in the pipeline today, between validation and
+this many companies at once. Sixteen are in the pipeline today, between validation and
 launch. Judge it on the outputs.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/operating-model-dark.png">
-  <img src="assets/operating-model-light.png" alt="One system, many companies. People set direction and taste. A control surface of permission scopes, spend caps, tool schemas, evaluation rubrics, escalation rules and an append-only ledger. Agents across discover, build, operate, distribute and learn. A shared foundation written once. Eleven companies running in parallel." width="100%">
+  <img src="assets/operating-model-light.png" alt="One system, many companies. People set direction and taste. A control surface of permission scopes, spend caps, tool schemas, evaluation rubrics, escalation rules and an append-only ledger. Agents across discover, build, operate, distribute and learn. A shared foundation written once. Sixteen companies running in parallel." width="100%">
 </picture>
 
-## The eleven
+## The sixteen
 
 Numbered as they appear on the traces above, at the stage each one has actually
 reached in the [Factory Zero registry](https://factory0.ventures/ventures/).
@@ -47,6 +47,11 @@ reached in the [Factory Zero registry](https://factory0.ventures/ventures/).
 | <img src="assets/companies/promptdecode.svg" width="48" alt="promptdecode"><br>**[promptdecode](https://promptdeco.de)**<br><sub>`09` · Security</sub> | Finds text a reviewer cannot see and a model reads anyway. The decoder runs in the browser today; the scanners that would catch it in CI are being built. | `VALIDATION` |
 | <img src="assets/companies/groove-guru.svg" width="48" alt="Groove Guru"><br>**[Groove Guru](https://groove.guru)**<br><sub>`10` · Music</sub> | Building a DJ tutor for Pioneer gear: it listens to the decks on the booth network and says, in a calm voice, when the key clashes or the blend misses the phrase. The drills run in the browser today. | `VALIDATION` |
 | <img src="assets/companies/posplug.svg" width="48" alt="PosPlugin"><br>**[PosPlugin](https://posplug.in)**<br><sub>`11` · Integrations</sub> | Building one API for every point-of-sale system: a model maps each POS's fields to one data model and a person confirms what it is unsure of. Early access is open; the connectors are being built. | `VALIDATION` |
+| <img src="assets/companies/keepshipping.svg" width="48" alt="Keep Shipping"><br>**[Keep Shipping](https://keepshipping.run)**<br><sub>`12` · Devtools</sub> | Building CI you can read: one workflow file per repository, checked before it runs. The site and the early-access list are open; the engine and the CLI are being built. | `VALIDATION` |
+| <img src="assets/companies/owlpost.svg" width="48" alt="Owlpost"><br>**[Owlpost](https://owlpost.to)**<br><sub>`13` · Email</sub> | Building one email API for apps and agents: send, receive inbound mail as JSON, and give an agent its own address. Its first job is replacing the email provider inside these companies. | `VALIDATION` |
+| <img src="assets/companies/bloodrank.svg" width="48" alt="Bloodrank"><br>**[Bloodrank](https://bloodrank.dev)**<br><sub>`14` · Community</sub> | A leaderboard for people who run AI coding agents, ranked on what they spend and what they actually ship, side by side. The site runs on sample data and says so. | `VALIDATION` |
+| <img src="assets/companies/rateclaim.svg" width="48" alt="ratecla.im"><br>**[ratecla.im](https://ratecla.im)**<br><sub>`15` · Travel</sub> | Asks a hotel for the rate it does not publish: an agent that says it is one requests the quote and holds it for 24 hours. Requests are not open yet. | `VALIDATION` |
+| <img src="assets/companies/sealbin.svg" width="48" alt="Sealbin"><br>**[Sealbin](https://sealb.in)**<br><sub>`16` · Security</sub> | The sealed handoff between agents: files, context or secrets encrypted on the sender's machine, opened once, then deleted. Early access is a waitlist, and the build plan is public. | `VALIDATION` |
 
 ## Agent-native, in production
 

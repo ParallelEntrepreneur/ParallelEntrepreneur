@@ -29,7 +29,7 @@
   .col h4 { margin: 0 0 8px; font: 500 13px 'Geist Mono', monospace; letter-spacing: .14em; color: var(--amber); }
   .col div { font-size: 16.5px; line-height: 1.6; }
   .foundation .pill { border-style: solid; color: var(--muted); }
-  .cos .body { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 10px; padding: 12px; }
+  .cos .body { display: grid; grid-template-columns: repeat(8, minmax(0, 1fr)); gap: 10px; padding: 12px; }
   .co { border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px 8px; background: var(--bg); }
   .co .n { font: 500 13px 'Geist Mono', monospace; color: var(--amber); letter-spacing: .08em; }
   .co svg { display: block; width: 100%; height: auto; margin: 8px 0 6px; }
@@ -81,7 +81,7 @@
 </div>
 <script>
   const STAGES = ['SIGNAL', 'VALIDATION', 'PROTOTYPE', 'LAUNCH', 'AUTONOMY', 'SCALE'];
-  const CURRENT = [2, 3, 1, 1, 1, 2, 1, 1, 1, 1, 1];
+  const CURRENT = [2, 3, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1];
   const host = document.getElementById('cos');
   CURRENT.forEach((stage, i) => {
     const tile = document.createElement('div');
