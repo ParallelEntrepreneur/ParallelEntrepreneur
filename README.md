@@ -21,15 +21,15 @@ hold the boundaries and make the calls that need a person.
 
 The studio this runs in is [Factory Zero](https://factory0.ventures): one operator
 and a network of agents. The claim being tested is that a studio that size can hold
-this many companies at once. Sixteen are in the pipeline today, between validation and
+this many companies at once. Nineteen are in the pipeline today, between validation and
 launch. Judge it on the outputs.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/operating-model-dark.png">
-  <img src="assets/operating-model-light.png" alt="One system, many companies. People set direction and taste. A control surface of permission scopes, spend caps, tool schemas, evaluation rubrics, escalation rules and an append-only ledger. Agents across discover, build, operate, distribute and learn. A shared foundation written once. Sixteen companies running in parallel." width="100%">
+  <img src="assets/operating-model-light.png" alt="One system, many companies. People set direction and taste. A control surface of permission scopes, spend caps, tool schemas, evaluation rubrics, escalation rules and an append-only ledger. Agents across discover, build, operate, distribute and learn. A shared foundation written once. Nineteen companies running in parallel." width="100%">
 </picture>
 
-## The sixteen
+## The nineteen
 
 Numbered as they appear on the traces above, at the stage each one has actually
 reached in the [Factory Zero registry](https://factory0.ventures/ventures/).
@@ -52,6 +52,9 @@ reached in the [Factory Zero registry](https://factory0.ventures/ventures/).
 | <img src="assets/companies/bloodrank.svg" width="48" alt="Bloodrank"><br>**[Bloodrank](https://bloodrank.dev)**<br><sub>`14` · Community</sub> | A leaderboard for people who run AI coding agents, ranked on what they spend and what they actually ship, side by side. The site runs on sample data and says so. | `VALIDATION` |
 | <img src="assets/companies/rateclaim.svg" width="48" alt="ratecla.im"><br>**[ratecla.im](https://ratecla.im)**<br><sub>`15` · Travel</sub> | Asks a hotel for the rate it does not publish: an agent that says it is one requests the quote and holds it for 24 hours. Requests are not open yet. | `VALIDATION` |
 | <img src="assets/companies/sealbin.svg" width="48" alt="Sealbin"><br>**[Sealbin](https://sealb.in)**<br><sub>`16` · Security</sub> | The sealed handoff between agents: files, context or secrets encrypted on the sender's machine, opened once, then deleted. Early access is a waitlist, and the build plan is public. | `VALIDATION` |
+| <img src="assets/companies/releaseshow.svg" width="48" alt="release.show"><br>**[release.show](https://release.show)**<br><sub>`17` · Video</sub> | Turns GitHub releases, merged pull requests and website changes into 30 to 90 second videos: branded, captioned and ready to post. Early access is a waitlist, and the product has not launched. | `VALIDATION` |
+| <img src="assets/companies/livingbrain.svg" width="48" alt="Living Brain"><br>**[Living Brain](https://livingbrain.wiki)**<br><sub>`18` · Devtools</sub> | Planned as a brain for your team that would write its own company wiki and keep improving it: in your coding agent over MCP, in your terminal with one fast Rust binary, and in team chat. In design, with four epics and 38 issues in the open product repository; nothing is built, and early access is a waitlist. | `VALIDATION` |
+| <img src="assets/companies/shoal.svg" width="48" alt="Shoal"><br>**[Shoal](https://shoal.ing)**<br><sub>`19` · Simulation</sub> | Lets you rehearse a launch first: paste a launch post or README, and thousands of simulated developers read it, vote and argue about it on a simulated Hacker News, Reddit or X. Early access is a waitlist, and the CLI is in development and cannot be installed yet. | `VALIDATION` |
 
 ## Agent-native, in production
 
