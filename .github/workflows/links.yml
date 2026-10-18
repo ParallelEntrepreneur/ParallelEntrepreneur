@@ -1,0 +1,30 @@
+name: External links
+
+on:
+  schedule:
+    # Mondays, 06:17 UTC
+    - cron: "17 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  links:
+    name: External links
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # Deliberately separate from CI: these requests leave the machine, so a
+      # slow or flaky third-party site must never block a pull request.
+      - name: Check external links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --no-progress --max-retries 3 README.md 'tools/*.html'
+          fail: true
+          output: ${{ runner.temp }}/lychee.md
